@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: billing-app-back-jenkins
-          image: ed308lejo/billingapp
+          image: ed308lejo/billingapp-backend
           ports:
             - containerPort: 7080
               name: billingappbport
